@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Form Responsive</title>
+</head>
+<body>
+    <div class="img-center">
+        <picture>
+            <source media="(max-width: 500px)" srcset="img/mobile.jpg">
+            <source media="(max-width: 686px)" srcset="img/img-background-semi-mobile.jpg">
+            <source media="(max-width: 1024px)" srcset="img/img-background-ipad.jpg">
+            <source media="(max-width: 1366px)" srcset="img/img-background-medium.jpg">
+            <source media="(max-width: 1440px)" srcset="img/pexels-eberhard-grossgasteiger-691668.jpg">
+            <img src="img/img-background-grand.jpg">
+        </picture>
+    </div>
+    
+    <main class="container-center">
+        <div class="center-itens">
+            <img src="img/camera-icon.png">
+            <h3>Logo-Marca</h3>
+            <h1>Bem vindo de Volta</h1>
+            <form class="formulario">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+            </form>
+            <button id="btn-form">Login</button>      
+            <span>Não tem uma conta? <a href="#">Inscreva-se</a></span>
+        <div class="alternative">
+            <span>Or</span>
+        </div>
+        <p>Login with <a href="#">Facebook</a></p>
+   </div>
+
+
+
+
+    </main>
+
+
+
+</body>
+</html>
